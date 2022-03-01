@@ -13,7 +13,7 @@ def index():
     r = redis.Redis(host='redis-server', port=639, db=1)
     r.set('hello', 'world')  # True
 
-    value = r.get('hello')
+    value = r.get('hello saumit')
 
     return value
 
